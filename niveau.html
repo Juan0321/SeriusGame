@@ -7,22 +7,64 @@
 
     <!-- Bootstrap CSS -->
     <link href="index.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script type="text/javascript" src="niveau.js"></script>
 
     <title>Niveau 1</title>
   </head>
-  <body style="background-image: url('image/Plan_de_travail_2.png');">
+  <body style="background-image: url('image/etape0.png');">
       <div class="inventaire">
-
+        <div class="etiquette" id="etape1" ></div>
+        <div class="etiquette" id="etape2" ></div>
+        <div class="etiquette" id="etape3" ></div>
+        <div class="etiquette" id="etape4" ></div>
       </div>
       
-        <form action="niveau1.html">
+        
             <div class="bouton">
-                <div id="suitant">
-                <button  type="submit"></button>
+                <div id="suivant">
+                <button  onclick="suivant('')" type="submit"></button>
+                </div>
+                <div id="1"style="display:block ruby">
+                    <div id="the">
+                        <button  onclick="suivant('the')"></button>
+                    </div>
+                    <div id="cafe">
+                        <button  onclick="suivant('cafe')"></button>
+                    </div>
+                </div>
+
+                <div id="2"style="display:none">
+                    <div class="choix">
+                        <button  onclick="suivant('web')"></button>
+                        <button  onclick="suivant('mobile')" style="margin-top: 20px;"></button>
+                        
+                    </div>
+                    <div class="choix">
+                        <button  onclick="suivant('desktop')"></button>
+                        <button  onclick="suivant('desktop')" style="margin-top: 20px;"></button>
+                    </div>
+                </div>
+
+                <div id="3"style="display:none">
+                    <div class="choix2">
+                        <button  onclick="suivant('moyen')"></button>
+                        
+                    </div>
+                    <div class="choix2">
+                        <button  onclick="suivant('importante')"></button>
+                    </div>
+                </div>
+
+                <div id="4"style="display:none">
+                    <div class="choix">
+                        <button  onclick="suivant('noir')"></button>
+                    </div>
+                    <div class="choix" style="margin-left: 30px;">
+                        <button  onclick="suivant('sombre')"></button>
+                    </div>  
                 </div>
             </div>
-        </form>
+       
      
  
             

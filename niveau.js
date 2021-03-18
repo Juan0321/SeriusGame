@@ -72,4 +72,5 @@ function suivant(choix) {
         if(point>=9){document.body.style.backgroundImage = 'url("image/gagne.jpg")';}
         else{document.body.style.backgroundImage = 'url("image/perdu.jpg")';}
     }
+    document.getElementById("point").innerHTML = point;
   }

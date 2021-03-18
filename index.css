@@ -15,7 +15,7 @@ input{
     margin-top: 250px;
 }
 button{
-    background-color:red;
+    background-color: transparent;
     border-color: transparent;
     color:blanchedalmond;
     width:100%;
@@ -51,7 +51,7 @@ button{
     height: 170px;
 }
 #etape4{
-    height: 100px;
+    height: 80px;
 }
 #cafe{
     position: relative;
@@ -76,4 +76,25 @@ button{
     left: 220px;
     width: 500px;
     margin-bottom: 30px;
+}
+#karen{
+    position: absolute;
+    width: 275px;
+    height: 340px;
+    top: 50px;
+    left: 1090px;
+}
+#perso{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 500px;
+    left: 200px;
+}
+#attaque{
+    position: absolute;
+    top: 400px;
+    height: 200px;
+    left: 460px;
+    width: 200px; 
 }

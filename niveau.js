@@ -32,15 +32,16 @@ function suivant(choix) {
     }
     if (choix=="desktop"){
         console.log("ici")
-        document.getElementById("etape2").style.backgroundImage = 'url("image/mobile.png")';
+        document.getElementById("etape2").style.backgroundImage = 'url("image/descktop.png")';
         document.getElementById("2").style.display = "none";
         document.getElementById("3").style.display = "block";
     }
     if(choix=="importante"){
         console.log("ici2")
-        document.getElementById("etape3").style.backgroundImage = 'url("image/mobile.png")';
+        document.getElementById("etape3").style.backgroundImage = 'url("image/importante.png")';
         document.getElementById("3").style.display = "none";
         document.getElementById("4").style.display = "block ruby";
+        point+=3;
     }
     if(choix=="moyen"){
         document.getElementById("3").style.display = "none";
